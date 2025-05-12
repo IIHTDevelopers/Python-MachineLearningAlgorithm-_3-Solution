@@ -1,0 +1,10 @@
+{
+    "fish": {
+        "Age": 2.5,
+        "Species": "Tilapia",
+        "Water_Temperature": 29.0,
+        "Feeding_Behavior": "Reduced",
+        "Coloration": "Faded",
+        "Swimming_Behavior": "Erratic"
+    }
+}
