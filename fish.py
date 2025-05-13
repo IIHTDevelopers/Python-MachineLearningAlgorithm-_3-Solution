@@ -100,7 +100,7 @@ def check_new_data_from_json(model, df_encoded, json_file="fish_data.json"):
 
         print("\n📋 FINAL FISH DISEASE PREDICTION RESULT:")
         print(f"🔍 Fish is healthy: {'YES' if prediction == 1 else 'NO'}\n")
-
+        return prediction
     except Exception as e:
         print(f"❌ Error checking new data: {e}\n")
 
